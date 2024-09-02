@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'montserrat',sans-serif;
+}
+.head1 {
+    top: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    cursor: pointer;
+}
+#menu{
+    font-size: 35px;
+    display: none;
+}
+.head1 span{
+    font-weight: 800;
+}
+.head-sec{
+    position:fixed;
+    background-color: white;
+    z-index: 50;
+    top: 0;
+    width: 100%;
+}
+.head2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.2rem;
+    
+}
+.head2 a{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+.head2-1{
+    display: flex;
+}
+.head2-1 a{
+    font-size: 15px;
+    margin-left: 1rem;
+    color: black;
+    font-weight: 500;
+}
+.head2-1 a:hover{
+    border-bottom:3px solid black;
+}
+.container{
+    margin-top: 10rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.divide-section{
+    display: flex;
+}
+.filter-section{
+    flex-basis: 25%;
+    position: relative;
+    font-size: 2vw;
+}
+.filter-occasion,.filter-colors,.filter-arrivals {
+    margin-top: 4vw;
+    margin-bottom: 10px;
+}
+h3{
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+}
+.vertical-line{
+    border: none;
+    border-left: 3px solid #1d232c;
+    height: 100%;
+    margin: 0 20px;
+    position:absolute;
+    top: 0px;
+    right: 0;
+ }   
+input{
+    margin-right: 5px;
+}
+.product-section{
+    flex-basis: 75%;
+    position: relative;
+    padding: 10px;
+}
+.navbar-search{
+    border: solid #1D232C 1px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+.navbar-search input{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+}
+
+.bx-search{
+    font-weight: 900;
+}
+.products{
+    margin-top: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1vw;
+}
+.join{
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.join h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.join p{
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+}
+.join input{
+    width: 90%;
+    border: 2px solid #1D232C;
+    padding: 0.5rem;
+    margin-left: 5%;
+    margin-top: 0.3rem;
+}
+.join button{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #1D232C;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 43%;
+}
+.footer{
+    margin-top: 2rem;
+    background-color: #1D232C;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+.footer h2{
+    font-size: 38px;
+    font-weight: 800;
+    color: white;
+    margin-left: 3rem;
+}
+.footer p{
+    margin-top: 0.5rem;
+    font-size: 25px;
+    color: white;
+    margin-left: 3rem;
+}
+.footer h3{
+    margin-top: 2rem;
+    font-size: 35px;
+    color: white;
+    margin-left: 4rem;
+}
+.footer h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    margin-left: 3rem;
+}
+@media (min-width: 425px) and (max-width: 600px) {
+    .head {
+        font-size: 10%;
+
+    }
+    #menu{
+        display: block;
+    }
+
+    .head2 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .head2 h1{
+        font-size: 30px;
+    }
+
+    .head2-1 {
+        display: none;
+        gap: 2rem;
+        position: absolute;
+        top: 100%;
+        right: 2rem;
+        padding: 1rem 3%;
+        background-color:whitesmoke;
+        border-radius: 1rem;
+        border: 1px solid black;
+    }
+    .head2-1.active{
+        display: block;
+    }
+
+    .head2-1 a {
+        font-size: 15px;
+        margin-left: 1rem;
+        margin-right: 0.5rem;
+        display: block;
+        margin-top: 2rem;
+    }
+    .container{
+        margin-top: 5rem;
+    }
+    .filter-occasion,.filter-colors,.filter-arrivals {
+        margin-top: 4vw;
+        margin-bottom: 10px;
+    }
+    h3{
+        display: block;
+        font-weight: 800;
+        font-size: 18px;
+        margin-right: 2rem;
+    }
+
+    .join input {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .join button {
+        margin-left: 30%;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .join h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .join p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .footer h2 {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .footer p,
+    .footer h3,
+    .footer h4 {
+        font-size: 15px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+
+    .head2-1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .join input {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .join button {
+        margin-left: 42%;
+    }
+
+    .footer h2 {
+        font-size: 32px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .head2 {
+        justify-content: space-between;
+    }
+
+    .join input {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .join button {
+        margin-left: 43%;
+    }
+
+    .footer h2 {
+        font-size: 38px;
+    }
+}
