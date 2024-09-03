@@ -445,6 +445,11 @@
     font-weight: 700;
     margin-left: 43%;
 }
+.join button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 
 .footer {
     margin-top: 2rem;
@@ -483,314 +488,321 @@
     color: white;
     margin-left: 3rem;
 }
+@media (max-width :480px){
+.head {
+    font-size: 10%;
 
-@media (min-width: 350px) and (max-width: 700px) {
-    .head {
-        font-size: 10%;
-
-    }
-    #menu{
-        display: block;
-        margin-right: 2rem;
-    }
-
-    .head2 {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    .head2 a {
-        font-size: 20px;
-        font-weight: 600;
-        color: black;
-    }
-
-    .head2-1 {
-        display: none;
-        gap: 2rem;
-        position: absolute;
-        top: 100%;
-        right: 2rem;
-        padding: 1rem 3%;
-        background-color:whitesmoke;
-        border-radius: 1rem;
-        border: 1px solid black;
-    }
-    .head2-1.active {
-        display: block;
-    }
-    .head2-1 a {
-        display: block;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        font-size: 15px;
-        margin-top: 2rem;
-    }
-
-    .container {
-        padding: 1rem;
-        margin-top: 4rem;
-    }
-
-    .slide-content {
-        margin-bottom: 1rem;
-        right: 1rem;
-        margin-top: 1.5rem;
-        left: 1rem;
-    }
-
-
-    .slide-content h1 {
-        margin-left: 15%;
-        font-size: 18px;
-    }
-
-    .slide-content p {
-        font-size: 15px;
-    }
-
-    .slide-content button {
-        margin-left: 38%;
-        padding: 0.2rem 0.4rem 0.2rem 0.1rem;
-        cursor: pointer;
-    }
-
-    .slide img {
-        width: 100%;
-    }
-
-    .brand h4{
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .brand-sec {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-    }
-
-    .brand1 img {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    .brand h2 {
-        font-size: 15px;
-    }
-
-    .provide-sec1 h2 {
-        font-size: 24px;
-    }
-
-    .provide-sec1 h4 {
-        font-size: 16px;
-    }
-
-    .provide-sec2 {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-    .arrival h1{
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .arrival-sec {
-        display: grid;
-        grid-auto-flow: column;
-        scroll-behavior: auto;
-        overflow-x: auto;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x mandatory;
-        scrollbar-width: none;
-        justify-content: space-between;
-    }
-
-    .arrival-sec button {
-        padding: 0.5rem 1rem 0.5rem 1rem;
-        margin-left: -38%;
-    }
-
-    .arrival1 img {
-        width: 12rem;
-        height: 12rem;
-    }
-
-    .arrival1 .overlay {
-        width: 12rem;
-        height: 12rem;
-    }
-
-    .Most h4{
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .ad {
-        width: 100%;
-    }
-
-    .ad1 img {
-        width: 100%;
-        height: 80%;
-        margin-right: 0;
-        margin-bottom: 1rem;
-    }
-
-    .ad2 {
-        margin-left: 1rem;
-    }
-
-    .ad2 h1 {
-        font-size: 18px;
-    }
-
-    .ad2 h2 {
-        font-size: 15px;
-        width: 100%;
-    }
-
-    .ad2 button {
-        padding: 0.2rem 0.4em 0.2rem 0.2rem;
-        border-radius: 0.5rem;
-        margin-left: 1rem;
-        font-size: 10px;
-        font-weight: 600;
-        margin-top: 1rem;
-    }
-
-    .join input {
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .join button {
-        margin-left: 30%;
-        padding: 0.5rem 1rem 0.5rem 1rem;
-        font-size: 15px;
-        font-weight: 700;
-    }
-
-    .join h2 {
-        font-size: 18px;
-        font-weight: 700;
-    }
-
-    .join p {
-        font-size: 15px;
-        width: 100%;
-    }
-
-    .footer h2 {
-        font-size: 20px;
-        margin-left: 0;
-    }
-
-    .footer p,
-    .footer h3,
-    .footer h4 {
-        font-size: 15px;
-        margin-left: 0;
-    }
+}
+#menu{
+    display: block;
 }
 
-@media (min-width: 768px) and (max-width: 1020px) {
+.head2 {
+    display: flex;
+    justify-content: space-between;
 
-    .head2-1 {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
+}
 
-    .container {
-        padding: 1.5rem;
-        margin-top: 5rem;
-    }
+.head2 a {
+    font-size: 15px;
+    font-weight: 600;
+}
 
-    .slide-content {
-        margin-bottom: 1rem;
-        margin-top: 6rem;
-        left: 8rem;
-    }
+.head2-1 {
+    display: none;
+    gap: 2rem;
+    position: absolute;
+    top: 100%;
+    right: 2rem;
+    padding: 1rem 3%;
+    background-color:whitesmoke;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+.head2-1.active {
+    display: block;
+}
+.head2-1 a {
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 15px;
+    margin-top: 2rem;
+}
 
-    .slide-content h1 {
-        font-size: 35px;
-    }
+.container {
+    padding: 1rem;
+    margin-top: 4rem;
+}
 
-    .slide-content p {
-        font-size: 24px;
-    }
-
-    .slide-content button {
-        margin-left: 38%;
-    }
-    .brand1 img {
-        width: 3.5rem;
-        height: 3.5rem;
-    }
-
-    .provide-sec2 {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-    .arrival-sec {
-        display: grid;
-        grid-auto-flow: column;
-        scroll-behavior: auto;
-        overflow-x: auto;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x mandatory;
-        scrollbar-width: none;
-        justify-content: space-between;
-    }
-
-    .arrival1 img {
-        width: 14rem;
-        height: 14rem;
-    }
-    .arrival1 .overlay {
-        width: 14rem;
-        height: 14rem;
-    }
-    .arrival-sec button {
-        margin-left: -23%;
-    }
-
-    .ad2 h1 {
-        font-size: 35px;
-    }
-
-    .ad2 h2 {
-        font-size: 22px;
-    }
-    .ad2{
-        margin-left: 2rem;
-        margin-bottom: 3rem;
-    }
-    .ad1 img {
-        width: 100%;
-        height: 80%;
-        margin-right: 0;
-        margin-bottom: 1rem;
-    }
-
-    .join input {
-        width: 85%;
-        margin-left: 7.5%;
-    }
-
-    .join button {
-        margin-left: 42%;
-    }
-
-    .footer h2 {
-        font-size: 32px;
-    }
+.slide-content {
+    left: 15%;
+    margin-top: 5%;
 }
 
 
-@media (min-width: 1024px) {
+.slide-content h1 {
+    margin-left: 15%;
+    font-size: 12px;
+}
+
+.slide-content p {
+    text-align: center;
+    font-size: 10px;
+    margin-left: 2rem;
+}
+
+.slide-content button {
+    margin-left: 30%;
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+    cursor: pointer;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.brand h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.brand-sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.brand1 img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.brand h2 {
+    font-size: 15px;
+}
+
+.provide-sec1 h2 {
+    font-size: 15px;
+}
+
+.provide-sec1 h4 {
+    font-size: 12px;
+}
+
+.provide-sec2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.p1{
+    font-size: 12px;
+}
+.provide1 p{
+    font-size: 10px;
+    
+}
+.arrival h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.arrival-sec {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    justify-content: space-between;
+}
+
+.arrival-sec button {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-left: -52%;
+}
+
+.arrival1 img {
+    width: 12rem;
+    height: 12rem;
+}
+
+.arrival1 .overlay {
+    width: 12rem;
+    height: 12rem;
+}
+
+.Most h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ad {
+    width: 100%;
+}
+
+.ad1 img {
+    width: 100%;
+    height: 80%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+}
+
+.ad2 {
+    margin-left: 1rem;
+}
+
+.ad2 h1 {
+    font-size: 15px;
+}
+
+.ad2 h2 {
+    font-size: 10px;
+    width: 100%;
+}
+
+.ad2 button {
+    padding: 0.1rem 0.2em 0.1rem 0.2rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 8px;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+.join{
+    margin-top: 2rem;
+}
+
+.join input {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.join button {
+    margin-left: 32%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 8px;
+    font-weight: 500;
+}
+
+.join h2 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.join p {
+    font-size: 10px;
+    width: 100%;
+}
+
+.footer h2 {
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.footer p,
+.footer h3,
+.footer h4 {
+    font-size: 15px;
+    margin-left: 0;
+}
+}
+
+@media (min-width: 768px) {
+
+.head2-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    padding: 1.5rem;
+    margin-top: 5rem;
+}
+
+.slide-content {
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+    left: 8rem;
+}
+
+.slide-content h1 {
+    font-size: 35px;
+}
+
+.slide-content p {
+    font-size: 24px;
+}
+
+.slide-content button {
+    margin-left: 38%;
+}
+.brand1 img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.provide-sec2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.arrival-sec {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    justify-content: space-between;
+}
+
+.arrival1 img {
+    width: 14rem;
+    height: 14rem;
+}
+.arrival1 .overlay {
+    width: 14rem;
+    height: 14rem;
+}
+.arrival-sec button {
+    margin-left: -23%;
+}
+
+.ad2 h1 {
+    font-size: 35px;
+}
+
+.ad2 h2 {
+    font-size: 22px;
+}
+.ad2{
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+.ad1 img {
+    width: 100%;
+    height: 80%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+}
+
+.join input {
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.join button {
+    margin-left: 42%;
+}
+
+.footer h2 {
+    font-size: 32px;
+}
+}
+    
+
+@media (min-width: 1021px) {
     .head2 {
         justify-content: space-between;
     }
@@ -799,18 +811,23 @@
         padding: 2rem;
         margin-top: 6rem;
     }
+    .slide-content{
+        margin-left: 2rem;
+    }
     .slide-content h1 {
-        margin-right: 50%;
-        font-size: 45px;
-        margin-left: -5%;
+        margin-right: 25%;
+        font-size: 40px;
+        margin-left: 15%;
     }
 
     .slide-content p {
         font-size: 35px;
+        margin-left: 1rem;
     }
 
     .slide-content button {
         margin-left: 40%;
+        margin-top: 1rem;
     }
 
     .brand-sec {
